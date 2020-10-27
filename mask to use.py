@@ -30,8 +30,8 @@ for i in range(3):
             break
 
 try:
-    print(f'''You are designing a subnet mask for the {net} network. You want ' + str(sub) + 
-    ' subnets with up to ' + str(ho) + ' hosts on each subnets. Which subnet mask should you use?\n''')
+    print(f'''You are designing a subnet mask for the {net} network. You want ''' + str(sub) + 
+    ''' subnets with up to ''' + str(ho) + ' hosts on each subnets. Which subnet mask should you use?\n''')
 except NameError:
     print('You have not inputted any value')
     sys.exit()
