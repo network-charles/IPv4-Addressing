@@ -10,7 +10,7 @@ print('This is the network address of the IP address ' + str(ip.network))
 # confirm that the prefix length is correct
 ip_prefix = ip.prefixlen
 
-
+# This is the network address
 net = str(ip.network)
 
 for i in range(3):
@@ -58,7 +58,7 @@ def subnets():
     
     mask_of_the_closest_value = IPNetwork(net + '/' + str(ip_prefix + binary_of_the_closest_value))
     string_of_mask = mask_of_the_closest_value
-    print('The mask to us is: ' + str(string_of_mask.netmask))
+    print('The mask to use is: ' + str(string_of_mask.netmask))
     print()
 
 subnets()
